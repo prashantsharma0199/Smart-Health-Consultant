@@ -156,9 +156,9 @@ session_start();
         <hr class="mb-4">
         <div class="mb-3">
           <label for="firstName">Name of the Policyholder</label>
-          <input type="text" name="Full_name" class="form-control" id="firstName" placeholder="" value="" required="">
+          <input type="text" name="policyholder" class="form-control" id="policyholder" placeholder="" value="" required="">
           <div class="invalid-feedback">
-            Valid complete name of Policyholder is required.
+            Valid complete name of Policyholder is required
           </div>
         </div>
         <div class="mb-3">
@@ -166,33 +166,33 @@ session_start();
         </div>
         <div class="row">
           <div class="col-md-4 mb-3">
-            <label for="consumer-no">Name of the Insured person</label>
-            <input type="text" name="Cons_no" class="form-control" id="consumer-no" placeholder="" required="">
+            <label for="ins_person">Name of the Insured person</label>
+            <input type="text" name="ins_person" class="form-control" id="ins_person" placeholder="" required="">
             <div class="invalid-feedback">
-              Please enter your Consumer number.
+              Please enter the name of insured person
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <label for="phone">Relationship with the Policyholder</label>
-            <input type="text" name="Mobile_no" class="form-control" id="phone-no" placeholder="" required="">
+            <label for="relationship">Relationship with the Policyholder</label>
+            <input type="text" name="relationship" class="form-control" id="relationship" placeholder="" required="">
             <div class="invalid-feedback">
               Please enter your Mobile number.
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <label for="consumer-no">Occupation</label>
-            <input type="text" name="Cons_no" class="form-control" id="consumer-no" placeholder="" required="">
+            <label for="occupation">Occupation</label>
+            <input type="text" name="occupation" class="form-control" id="occupation" placeholder="" required="">
             <div class="invalid-feedback">
-              Please enter your Consumer number.
+              Please enter your occupation
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-8 mb-3">
-            <label for="consumer-no">Address</label>
-            <input type="text" name="Cons_no" class="form-control" id="consumer-no" placeholder="" required="">
+            <label for="address">Address</label>
+            <input type="text" name="address" class="form-control" id="address" placeholder="" required="">
             <div class="invalid-feedback">
-              Please enter your Consumer number.
+              Please enter your address
             </div>
           </div>
           <div class="col-md-4 mb-3">
