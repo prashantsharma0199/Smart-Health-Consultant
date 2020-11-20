@@ -1,0 +1,247 @@
+.container-fluid{
+  padding: 0px 0px 50px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+/* Title */
+.title-navbar{
+  background-color: #035aa6;
+  padding: 1% 15%;
+}
+
+.title-login{
+  margin-left: 20px;
+  height: 38px;
+  width: 80px;
+}
+
+#insurance{
+  padding: 3rem 15%;
+  padding-bottom: 0;
+}
+
+.title-h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 1.5rem 15% 2rem;
+}
+
+.firstbody-h3, .secondbody-h3, .thirdbody-h3{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: 'Merriweather',sans-serif;
+}
+
+.firstbody-p, .secondbody-p, .thirdbody-p{
+  text-align: left;
+  font-family: 'Merriweather',sans-serif;
+  margin-bottom: 40px;
+}
+
+.secondbody-sp{
+  margin-top: 10%;
+  font-family: 'Merriweather',sans-serif;
+  font-weight:bolder;
+}
+
+.ins-img{
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+/* Articles */
+#articles{
+  text-align: center;
+  padding: 3px 15%;
+  padding-bottom: 40px;
+}
+
+.articles-deck{
+  padding: 3% 15%;
+  padding-bottom: 10px;
+}
+
+.card-articles_img{
+  float: left;
+  width:  357px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.aricles-hl{
+  text-align: right;
+}
+
+
+/* Footer */
+#footer{
+  padding: 5% 15% 20px;
+  background-color: #035aa6;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-logo{
+  padding: 20px 10px;
+}
+
+/* -------------------------- */
+
+.header-top {
+  box-shadow: 0px 0px 7px 0px #333;
+  padding: 10px 0;
+  background: #FFF;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header-left{
+  float: left;
+}
+
+.header-right{
+  float: right;
+  text-align: right;
+}
+
+
+.buttons{
+  padding: 4rem;
+  text-align: center;
+}
+
+.btn{
+  width:15rem;
+  font-size: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-Refill{
+  background-color: #0084ff;
+  background-image: linear-gradient(to bottom, #0084ff, #035aa6);
+  border: 2px solid #0771fb;
+  margin-right: 2rem;
+}
+
+
+/* The Modal */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px auto;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+/* ---------------------------------------------------------- */
+.needs-validation{
+  padding: 3rem;
+}
+
+.form-heading{
+  padding-top: 0rem;
+  text-align: center;
+}
+
+.button-form{
+  text-align: center;
+}
+
+hr{
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;
+  background-color:#000;
+  height: 0.5px;
+}
+
+
+@media only screen and (max-width:980px){
+  .header-right{
+    text-align: center;
+  }
+  .header-left{
+    text-align: center;
+  }
+
+  .buttons{
+    padding-top: 15px;
+    text-align: center;
+  }
+  .btn{
+    font-size: 14px;
+    width:9.5rem;
+  }
+  .btn-Refill{
+    margin-right:0;
+  }
+}
+
+@media only screen and (max-width:438px){
+  .buttons{
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+  }
+
+}
