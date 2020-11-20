@@ -81,7 +81,7 @@ session_start();
           <div class="card-body">
             <h5 class="card-title">Doctors Online</h5>
             <p class="card-text">Tell us your health concern and we will assign you a doctor.</p>
-            <a href="#" class="btn btn-primary title-btn">Start Consulting</a>
+            <a href="http://localhost/SHC/doctors.php" class="btn btn-primary title-btn">Start Consulting</a>
           </div>
         </div>
 
@@ -90,7 +90,7 @@ session_start();
           <div class="card-body">
             <h5 class="card-title">Doctors Near You</h5>
             <p class="card-text">Book an in-clinic appointment with your preferred doctor.</p>
-            <a href="#" class="btn btn-primary title-btn">Find Doctors</a>
+            <a href="http://localhost/SHC/index.php" class="btn btn-primary title-btn">Find Doctors</a>
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@ session_start();
         <div class="card-body">
           <h5 class="card-title">Dentist</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Book Appointment</a>
+          <a href="http://localhost/SHC/index.php" class="btn btn-primary">Book Appointment</a>
         </div>
       </div>
 
@@ -118,7 +118,7 @@ session_start();
         <div class="card-body">
           <h5 class="card-title">Gynecologist</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Book Appointment</a>
+          <a href="http://localhost/SHC/index.php" class="btn btn-primary">Book Appointment</a>
         </div>
       </div>
 
@@ -127,7 +127,7 @@ session_start();
         <div class="card-body">
           <h5 class="card-title">Physiotherapist</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Book Appointment</a>
+          <a href="http://localhost/SHC/index.php" class="btn btn-primary">Book Appointment</a>
         </div>
       </div>
     </div>
